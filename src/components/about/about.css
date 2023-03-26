@@ -1,0 +1,83 @@
+.a{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.a-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+.a-right{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.a-card{
+    width: auto;
+    height: 60%;
+    border-radius: 50%;
+    /* position: absolute; */
+    overflow: hidden;
+}
+.a-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.a-img:hover{
+    content: url("../../img/abouth.png");
+}
+.a-shape1{
+    clip-path: polygon(100% 0, 0 0, 83% 100%);
+    position: absolute;
+    top: 0;
+    height: 12%;
+    width: 100%;
+    background-color: rgb(44, 172, 44);
+    /* background-color: rgb(13, 152, 0); */
+}
+.a-shape2{
+    position: absolute;
+    bottom: 0;
+    height: 12%;
+    width: 100%;
+    clip-path: polygon(83% 0, 0% 100%, 100% 100%);
+    background-color: rgb(44, 172, 44);
+}
+
+@media screen and (max-width:700px){
+    .a{
+        font-size: 10px;
+        flex-direction: column;
+    }
+    .a-left{
+        height: 55%;
+        top: 50px;
+    }
+    .a-shape1, .a-shape2{height: 10%;}
+    .a-card{
+        height: 70%;
+        width: 90%;
+    }
+}
+
+@media screen  and (max-width:300px){
+    .a{
+        font-size: 7.5px;
+    }
+}

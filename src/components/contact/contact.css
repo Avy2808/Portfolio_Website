@@ -1,0 +1,190 @@
+.c{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.c-bg{
+    height: 100%;
+    width: 20px;
+    background-color: rgb(44, 172, 44);
+    position: absolute;
+}
+.c-wrapper{
+    padding: 50px;
+    display: flex;
+}
+.c-left{
+    flex: 1;
+}
+.c-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.c-title{
+    font-size: 60px;
+    width: 50%;
+}
+.c-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    font-weight: 300;
+}
+.c-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.c-desc{
+    font-weight: 300;
+}
+form{
+    margin-top: 20px;
+    /* display: flex;
+    flex-direction: column; */
+}
+input{
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+    font-size: 14px;
+    padding-left: 10px;
+}
+textarea{
+    width: 80%;
+    height: 5em;
+    margin: 10px 0;
+    font-size: 14px;
+    padding-left: 10px;
+}
+button{
+    border: none;
+    padding: 15px;
+    background-color: rgb(44, 172, 44);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 0;
+}
+.endmsg{
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:1200px){
+    .c{
+        overflow: hidden;
+    }
+    .c-title{
+        font-size: 40px;
+    }
+    input{
+        height: 30px;
+    }
+    textarea {
+        width: 35em;
+    }
+}
+
+@media screen and (max-width:900px){
+    .c-wrapper{
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .c-title{
+        font-size: 30px;
+    }
+    .c-item{
+        margin: 20px 0;
+        width: 100%;
+    }
+    .c-desc{
+        display: none;
+    }
+    form{
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 35%;
+        height: 30px;
+        margin: 10px;
+        margin-left: 0;
+    }
+    textarea {
+        height: 4.5em;
+        width: 38em;
+    }
+}
+@media screen and (max-width:600px){
+    textarea {
+        height: 4em;
+        width: 20em;
+    }
+}
+@media screen and (max-width:350px){
+    .c-title{
+        font-size: 25px;
+    }
+    input{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    textarea{
+        margin-left: 10px;
+        height: 6em;
+        font-size: 10px;
+    }
+    .c-item{
+        font-size: 10px;
+    }
+    .c-icon{
+        height: 20px;
+        width: 20px;
+    }
+    button{
+        margin-left: 20px;
+        padding: 8px;
+    }
+}
+@media screen and (max-width:250px){
+    .c-title{
+        font-size: 15px;
+    }
+    input{
+        margin-left: 15px;
+        font-size: 8px;
+        height: 18px;
+    }
+    textarea{
+        height: 2em;
+        width: 100%;
+        margin-left: 15px;
+        height: 6em;
+        font-size: 8px;
+    }
+    .c-item{
+        font-size: 10px;
+    }
+    .c-icon{
+        height: 10px;
+        width: 10px;
+    }
+    button{
+        margin-left: 20px;
+        padding: 8px;
+    }
+    .c-wrapper{
+        padding: 25px;
+    }
+}
