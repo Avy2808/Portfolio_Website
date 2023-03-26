@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Website/static/css/main.16e71b36.css",
+    "main.js": "/Portfolio_Website/static/js/main.a8f2cb3b.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio_Website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/coverVideo.mp4": "/Portfolio_Website/static/media/coverVideo.d00133d3c9fc02e4fd57.mp4",
+    "static/media/Me.jpg": "/Portfolio_Website/static/media/Me.ef4369419beed05b5a81.jpg",
+    "static/media/abouth.png": "/Portfolio_Website/static/media/abouth.91abbd8284e6660627e1.png",
+    "static/media/about.png": "/Portfolio_Website/static/media/about.ba2790112632bf6d3fda.png",
+    "static/media/resume.jpeg": "/Portfolio_Website/static/media/resume.32f591bd5a53adb8c78f.jpeg",
+    "static/media/primbg.avif": "/Portfolio_Website/static/media/primbg.25ec502b2252d1244699.avif",
+    "static/media/address.png": "/Portfolio_Website/static/media/address.a01cb8cc428702f30bec.png",
+    "static/media/email.png": "/Portfolio_Website/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/sun.png": "/Portfolio_Website/static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/phone.png": "/Portfolio_Website/static/media/phone.d90a6d23cf5129d853bb.png",
+    "static/media/moon.png": "/Portfolio_Website/static/media/moon.3bea3d398a25611d421b.png",
+    "static/media/technology.jpg": "/Portfolio_Website/static/media/technology.1d69819f6ca579982b2b.jpg",
+    "static/media/highbg.jpg": "/Portfolio_Website/static/media/highbg.3e3fd42455a19fd82616.jpg",
+    "static/media/gitic.svg": "/Portfolio_Website/static/media/gitic.adb057e9b81365542cdf.svg",
+    "static/media/leetcode.svg": "/Portfolio_Website/static/media/leetcode.7951fc74c4520a91c54f.svg",
+    "static/media/cnic.svg.svg": "/Portfolio_Website/static/media/cnic.svg.7083d3e504bcde10144f.svg",
+    "static/media/gfgic.svg": "/Portfolio_Website/static/media/gfgic.bafc902a6ba70f78c62a.svg",
+    "index.html": "/Portfolio_Website/index.html",
+    "static/media/linkic.svg": "/Portfolio_Website/static/media/linkic.ada11cda991129bc91b7.svg",
+    "main.16e71b36.css.map": "/Portfolio_Website/static/css/main.16e71b36.css.map",
+    "main.a8f2cb3b.js.map": "/Portfolio_Website/static/js/main.a8f2cb3b.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio_Website/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16e71b36.css",
+    "static/js/main.a8f2cb3b.js"
+  ]
+}
