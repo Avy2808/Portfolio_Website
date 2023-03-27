@@ -14,6 +14,7 @@
     top: 0;
     clip-path: polygon(50% 0%, 100% 0, 100% 12%, 50% 0, 50% 0, 50% 0, 50% 0, 50% 0, 0 12%, 0 0);
     background-color: rgb(44, 172, 44);
+    border-top: 1.5px solid black;
 }
 .e-title{
     font-size: 35px;
