@@ -2,6 +2,7 @@ import "./skills.css"
 import Resume from "../../img/resume.jpeg"
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
+import Fade from "react-reveal/Fade";
 
 export default function Skills(){
     const theme=useContext(ThemeContext);
@@ -9,8 +10,8 @@ export default function Skills(){
 
     return (
         <div className="s">
-            {/* <div className="s-l-shape"></div> */}
             <div className="s-title" style={{color:darkMode?"white":"rgb(54, 54, 54)"}}>Skills and Projects</div>
+            <Fade left>
             <div className="s-left">
                 <div className="s1-wrapper" style={{border:darkMode?"0px solid rgb(90, 90, 90)":"3px solid rgb(54, 54, 54)"}}>
                         <div className="bgs"></div>
@@ -30,13 +31,13 @@ export default function Skills(){
                     <div className="bgs bgs2"></div>
                     <div className="bgs bgs3"></div>
                     <h4 className="s-sub" style={{color:darkMode?"black":"rgb(54, 54, 54)"}}>Here are some of my Projects</h4>
-                    {/* <ul className="s-list"> */}
-                    <li className="p-item">Portfolio website</li>
+                    <li className="p-item"><a href="https://avy2808.github.io/Portfolio_Website/">Portfolio Website</a></li>
                     <li className="p-item"><a href="https://avy2808.github.io/KBC_React_App/" style={{color:darkMode?"black":"black"}}>Trivia Millionaire App</a></li>
                     <li className="p-item"><a href="https://avy2808.github.io/Snake-Game/" style={{color:darkMode?"black":"black"}}>Snake Game</a></li>
-                    {/* </ul> */}
                 </div>
             </div>
+            </Fade>
+            <Fade right>
             <div className="s-right">
                 <div className="resume">
                     <a href="https://flowcv.com/resume/oe30t4hvgv"><img src={Resume} className="resume-img" /></a>
@@ -46,7 +47,7 @@ export default function Skills(){
                     <a href="https://flowcv.com/resume/oe30t4hvgv" style={{color:darkMode ? "white" : "black"}}>Click here and Explore!!!</a>
                 </div> 
             </div>
-            {/* <div className="s-r-shape"></div> */}
+            </Fade>
         </div>
     )
 }

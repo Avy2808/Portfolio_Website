@@ -4,6 +4,7 @@ import exams from "../../img/exams.jpg"
 import tech from "../../img/technology.jpg"
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
+import Zoom from "react-reveal/Fade";
 
 export default function Education(){
     const theme=useContext(ThemeContext);
@@ -13,6 +14,7 @@ export default function Education(){
             <h2 className="e-title">Education</h2>
             <div className="e-shape"></div>
             <div className="e-wrapper">
+                <Zoom bottom>
                 <div className="e-left" style={{border:darkMode?"2px solid white":"2px solid black"}}>
                     <div className="content">
                         <div className="back">
@@ -30,6 +32,8 @@ export default function Education(){
                         </div>
                     </div>
                 </div>
+                </Zoom>
+                <Zoom bottom>
                 <div className="e-center" style={{border:darkMode?"2px solid white":"2px solid black"}}>
                     <div className="content">
                         <div className="back">
@@ -47,6 +51,8 @@ export default function Education(){
                     </div>
                     </div>
                 </div>
+                </Zoom>
+                <Zoom bottom>
                 <div className="e-right" style={{border:darkMode?"2px solid white":"2px solid black"}}>
                     <div className="content">
                         <div className="back">
@@ -64,6 +70,7 @@ export default function Education(){
                     </div>
                     </div>
                 </div>
+                </Zoom>
             </div>
         </div>
     )

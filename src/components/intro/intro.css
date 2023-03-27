@@ -1,6 +1,7 @@
 .i{
     display: flex;
     height: 100vh;
+    overflow-x: hidden;
 }
 .i-left{
     flex: 1;
