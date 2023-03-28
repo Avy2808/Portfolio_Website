@@ -1,5 +1,5 @@
 .c{
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
     overflow: hidden;
 }
@@ -24,21 +24,22 @@
     justify-content: center;
 }
 .c-title{
-    font-size: 60px;
+    font-size: 7vh;
     width: 50%;
 }
 .c-item{
     display: flex;
     align-items: center;
-    margin: 50px 0;
+    margin: 6vh 0;
     font-weight: 300;
 }
 .c-icon{
-    width: 30px;
-    height: 30px;
+    width: 3vh;
+    height: 3vh;
     margin-right: 20px;
 }
 .c-desc{
+    font-size: 2vh;
     font-weight: 300;
 }
 form{
@@ -52,17 +53,18 @@ input{
     border: none;
     border-bottom: 1px solid black;
     margin: 10px 0;
-    font-size: 14px;
+    font-size: 2vh;
     padding-left: 10px;
 }
 textarea{
     width: 80%;
     height: 5em;
     margin: 10px 0;
-    font-size: 14px;
+    font-size: 2vh;
     padding-left: 10px;
 }
 button{
+    font-size: 2vh;
     border: none;
     padding: 15px;
     background-color: rgb(44, 172, 44);
@@ -85,7 +87,7 @@ button{
         overflow: hidden;
     }
     .c-title{
-        font-size: 40px;
+        font-size: 5vh;
     }
     input{
         height: 30px;

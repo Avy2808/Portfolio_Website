@@ -18,13 +18,13 @@ export default function Skills(){
                         <div className="bgs bgs2"></div>
                         <div className="bgs bgs3"></div>
                         <h4 className="s-sub" style={{color:darkMode?"black":"rgb(54, 54, 54)"}}>Here is a list of some of my skills</h4>  
-                        <ul className="s-list">
+                        {/* <ul className="s-list"> */}
                             <li className="s-item">Competent knowledge in Data Structures and Algorithms</li>
                             <li className="s-item">Proficiency in Web Development</li>
                             <li className="s-item">Adequate Competitive Programming Skills</li>
                             <li className="s-item">Sufficient knowledge in OOPS, OS, DBMS</li>
                             <li className="s-item">Art enthusiast and Cricket Geek</li>
-                        </ul>
+                        {/* </ul> */}
                 </div>
             </Fade>
             <Fade left delay={800}>

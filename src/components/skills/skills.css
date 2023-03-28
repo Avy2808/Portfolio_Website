@@ -20,14 +20,14 @@
     margin:0 auto;
     width: 60%;
     margin-top: 10px;
-    font-size: 32px;
+    font-size: 4vh;
 }
 .s1-wrapper{
     border: 10px solid black;
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
     height: 35vh;
     width: 90%;
@@ -66,8 +66,8 @@
     }
 }
 .s-sub{
-    font-size: 25px;
-    height: 30%;
+    font-size: 3vh;
+    /* height: 30%; */
     margin-bottom: 16px;
     text-align: center;
     z-index: 1;
@@ -81,6 +81,7 @@
 }
 .s-item, .p-item{
     /* text-align: center; */
+    font-size: 2vh;
     z-index: 1;
     color: black;
 }
@@ -175,16 +176,17 @@
 
 @media screen and (max-width:890px) {
     .s-sub{
-        font-size: 15px;
+        font-size: 18px;
     }
     .p-item{
-        font-size: 13px;
+        font-size: 15px;
     }
     .s-item{
-        font-size: 12px;
+        font-size: 14px;
     }
     .s-sub{
         height: auto;
+        margin-bottom: 3px;
     }
     .s-title{
         font-size: 25px;
@@ -196,6 +198,25 @@
     .s1-wrapper, .s2-wrapper{
         margin: 5px;
         padding: 7px;
+    }
+}
+@media screen and (max-width:677px){
+    .s-sub{
+        font-size: 15px;
+    }
+    .s-item{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:560px){
+    .s-sub{
+        font-size: 13px;
+    }
+    .s-item{
+        font-size: 11.5px;
+    }
+    .p-item a{
+        font-size: 13px;
     }
 }
 @media screen and (max-width:500px){
@@ -213,9 +234,6 @@
 @media screen and (max-width:450px){
     .s{
         flex-direction: column;
-    }
-    .s-sub{
-        font-size: 12px;
     }
     .s-title{
         height: 20vh;
@@ -244,7 +262,7 @@
         height: 35vh;
     }
     .s2-wrapper{
-        justify-content: center;
+        justify-content: space-around;
     }
     .s-sub{
         margin-bottom: 0;
@@ -262,13 +280,21 @@
         text-align: center;
     }
     .s-item{
-        font-size: 9px;
+        font-size: 10px;
     }
     .s-sub{
         font-size: 14px;
     }
     .p-item{
         font-size: 13px;
+    }
+}
+@media screen and (max-width:400px){
+    .s-sub{
+        font-size: 13px;
+    }
+    .s-item{
+        font-size: 9px;
     }
 }
 @media screen and (max-width:322px){
@@ -281,36 +307,37 @@
     .s-title{
         font-size: 23px;
     }
-    .s-sub{
-        font-size: 10px;
-    }
     .s1-wrapper, .s2-wrapper{
         height: 45vh;
         padding: 2px;
-        border-radius: 7px;
+        border-radius: 12px;
+        padding-left: 5px;
+    }
+    .s-item{
+        font-size: 9px;
+    }
+    .p-item a{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:246px){
+    .s1-wrapper .s-sub{
+        font-size: 10px;
     }
     .s-item{
         font-size: 8.5px;
     }
-    .p-item{
-        font-size: 10px;
-    }
 }
-@media screen and (max-width:212px){
-    .s-title{
-        font-size: 20px;
+@media screen and (max-width:214px){
+    .s1-wrapper{
+        margin-left: 1px;
+        margin-right: 2px;
+    }
+    .s2-wrapper{
+        margin-right: 1px;
+        margin-left: 0;
     }
     .s-left{
-        flex: 3;
-    }
-    .s-right{
-        flex: 1;
-    }
-    .s1-wrapper, .s2-wrapper{
-        height: 50vh;
         padding: 0;
-    }
-    .s-sub{
-        font-size: 9px;
     }
 }

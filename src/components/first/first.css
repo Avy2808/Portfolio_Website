@@ -29,7 +29,7 @@
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .05em;
-    font-size: 80px;
+    font-size: 9vh;
     animation: 
       typing 3.5s steps(30, end) infinite alternate,
       blink-caret .5s step-end infinite;
@@ -44,7 +44,7 @@
   }
   .cover-container > h1 {
     color: rgb(189, 244, 152);
-    font-size: 80px;
+    font-size: 9vh;
     z-index: 2;
 }
 
@@ -52,12 +52,12 @@
     margin-top: 9px;
     margin-bottom: 40px;
     color: azure;
-    font-size: 40px;
+    font-size: 5vh;
     z-index: 2;
   }
 
 .btn{
-    font-size: 120%;
+    font-size: 3vh;
     z-index: 2;
     position: relative;
 }
