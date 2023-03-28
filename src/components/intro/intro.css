@@ -1,7 +1,6 @@
 .i{
     display: flex;
     height: 100vh;
-    overflow-x: hidden;
 }
 .i-left{
     flex: 1;
@@ -12,7 +11,6 @@
 .i-right{
     flex: 1;
     display: flex;
-    overflow: hidden;
     justify-content: center;
     align-items: center;
 }
