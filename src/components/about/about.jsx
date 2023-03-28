@@ -13,10 +13,10 @@ export default function About(){
         <div className="a">
                 <div className="a-shape1"></div>
             <div className="a-left">
-                <Fade bottom>
-                <div className="a-card" style={{boxShadow:darkMode?"-10px -10px rgb(44, 172, 44)":"-10px -10px #222"}}>
-                    <img src={AboutImg} className="a-img" />
-                </div>
+                <Fade>
+                    <div className="a-card" style={{boxShadow:darkMode?"-10px -10px rgb(44, 172, 44)":"-10px -10px #222"}}>
+                        <img src={AboutImg} className="a-img" />
+                    </div>
                 </Fade>
             </div>
             <div className="a-right">

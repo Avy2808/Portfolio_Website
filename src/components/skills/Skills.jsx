@@ -11,8 +11,8 @@ export default function Skills(){
     return (
         <div className="s">
             <div className="s-title" style={{color:darkMode?"white":"rgb(54, 54, 54)"}}>Skills and Projects</div>
-            <Fade left>
             <div className="s-left">
+            <Fade left>
                 <div className="s1-wrapper" style={{border:darkMode?"0px solid rgb(90, 90, 90)":"3px solid rgb(54, 54, 54)"}}>
                         <div className="bgs"></div>
                         <div className="bgs bgs2"></div>
@@ -26,6 +26,8 @@ export default function Skills(){
                             <li className="s-item">Art enthusiast and Cricket Geek</li>
                         </ul>
                 </div>
+            </Fade>
+            <Fade left delay={800}>
                 <div className="s2-wrapper" style={{border:darkMode?"0px solid rgb(90, 90, 90)":"3px solid rgb(54, 54, 54)"}}>
                     <div className="bgs"></div>
                     <div className="bgs bgs2"></div>
@@ -35,9 +37,9 @@ export default function Skills(){
                     <li className="p-item"><a href="https://avy2808.github.io/KBC_React_App/" style={{color:darkMode?"black":"black"}}>Trivia Millionaire App</a></li>
                     <li className="p-item"><a href="https://avy2808.github.io/Snake-Game/" style={{color:darkMode?"black":"black"}}>Snake Game</a></li>
                 </div>
-            </div>
             </Fade>
-            <Fade right>
+            </div>
+            <Fade right delay={500}>
             <div className="s-right">
                 <div className="resume">
                     <a href="https://flowcv.com/resume/oe30t4hvgv"><img src={Resume} className="resume-img" /></a>

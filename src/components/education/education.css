@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .e-shape{
     height: 100%;
