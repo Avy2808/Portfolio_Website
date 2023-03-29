@@ -9,7 +9,7 @@ export default function Skills(){
     const darkMode=theme.state.darkMode;
 
     return (
-        <div className="s">
+        <div className="s" id="skills">
             <div className="s-title" style={{color:darkMode?"white":"rgb(54, 54, 54)"}}>Skills and Projects</div>
             <div className="s-left">
             <Fade left>

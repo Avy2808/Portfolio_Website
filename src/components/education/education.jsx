@@ -10,7 +10,7 @@ export default function Education(){
     const theme=useContext(ThemeContext);
     const darkMode=theme.state.darkMode;
     return(
-        <div className="e">
+        <div className="e" id="edu">
             <h2 className="e-title">Education</h2>
             <div className="e-shape"></div>
             <div className="e-wrapper">

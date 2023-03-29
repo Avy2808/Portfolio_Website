@@ -9,7 +9,7 @@ export default function First(){
     const theme=useContext(ThemeContext);
     const darkMode=theme.state.darkMode;
     return(
-        <div className="cover-container">
+        <div className="cover-container" id="first">
             <video className="video" src={coverVideo} autoPlay loop muted />
             <div className="typewriter">
                 <h1>Avyukt R Kumar</h1>

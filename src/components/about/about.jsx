@@ -10,7 +10,7 @@ export default function About(){
     const theme=useContext(ThemeContext);
     const darkMode=theme.state.darkMode;
     return (
-        <div className="a">
+        <div className="a" id="about">
                 <div className="a-shape1"></div>
             <div className="a-left">
                 <Fade>

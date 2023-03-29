@@ -16,7 +16,7 @@ export default function Handles(){
                 <div className="h-icons">
                     <a href="https://github.com/Avy2808"><div className="icon git"></div></a>
                     <a href="https://www.linkedin.com/in/avyukt-r-kumar/"><div className="icon link"></div></a>
-                    <a href="https://leetcode.com/Iteratoravyy/"><div className="icon lc"></div></a>
+                    <a href=""><div className="icon lc"></div></a>
                     <a href="https://auth.geeksforgeeks.org/user/avyuktrkumar/"><div className="icon gfg"></div></a>
                     <a href="https://www.codingninjas.com/codestudio/profile/23_Avyukt"><div className="icon cn"></div></a>
                     <a href="https://www.codechef.com/users/avyuktcc_2808"><div className="icon cc"></div></a>
