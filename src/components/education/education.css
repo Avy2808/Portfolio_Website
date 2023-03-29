@@ -112,7 +112,7 @@
     /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     backface-visibility: hidden;
     /* justify-content: space-between; */
   }
@@ -220,7 +220,7 @@
 }
 @media screen and (max-width:480px){
     .e-title{
-        font-size: 24px;
+        font-size: 38px;
     }
     .e-wrapper{
         flex-direction: column;
@@ -234,7 +234,7 @@
     }
     .e-right, .e-left, .e-center{
         width: 85%;
-        height: 32%;
+        /* height: 32%; */
     }
     .e-imgbox{
         height: 0;

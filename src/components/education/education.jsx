@@ -33,7 +33,7 @@ export default function Education(){
                     </div>
                 </div>
                 </Fade>
-                <Fade bottom delay={1000}>
+                <Fade bottom delay={800}>
                 <div className="e-center" style={{border:darkMode?"2px solid white":"2px solid black"}}>
                     <div className="content">
                         <div className="back">
@@ -52,7 +52,7 @@ export default function Education(){
                     </div>
                 </div>
                 </Fade>
-                <Fade bottom delay={2000}>
+                <Fade bottom delay={1500}>
                 <div className="e-right" style={{border:darkMode?"2px solid white":"2px solid black"}}>
                     <div className="content">
                         <div className="back">
