@@ -106,7 +106,6 @@
     padding: 15px;
     border-radius: 20px;
     overflow: hidden;
-    /* background-color: rgb(242, 242, 242); */
 }
 .s-right{
     flex: 2;
@@ -119,10 +118,8 @@
 .resume{
     max-height: 100%;
     width: 100%;
-    /* overflow: scroll; */
     margin-top: 20px;
     padding-left: 15px;
-    /* border: 2px solid black; */
 }
 .resume-link{
     visibility: hidden;
@@ -153,21 +150,6 @@
     color: black;
     text-decoration: none;
 }
-/* .s-l-shape{
-    clip-path: polygon(7% 0%, 0 50%, 0 50%,7% 100%, 0 100%, 0 0);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color: rgb(44, 172, 44);
-}
-.s-r-shape{
-    clip-path: polygon(93% 0, 100% 0, 100% 50%, 100% 100%, 93% 100%, 100% 50%);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color: rgb(44, 172, 44);
-} */
-
 @media screen and (max-width:1270px){
     .s-left{
         padding: 2%;
@@ -178,9 +160,6 @@
     }
     .s-title{
         font-size: 25px;
-    }
-    .s-right{
-        /* margin-right: 4%; */
     }
 }
 
