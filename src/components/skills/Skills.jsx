@@ -45,7 +45,7 @@ export default function Skills(){
                     <a href="https://flowcv.com/resume/oe30t4hvgv"><img src={Resume} className="resume-img" /></a>
                 </div> 
                 <div className="resume-link">
-                    <h4>This is a link to my resume</h4>
+                    <h4 style={{color:darkMode ? "white" : "black"}}>This is a link to my resume</h4>
                     <a href="https://flowcv.com/resume/oe30t4hvgv" style={{color:darkMode ? "white" : "black"}}>Click here and Explore!!!</a>
                 </div> 
             </div>
